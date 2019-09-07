@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liulei3/config-repo
+          username: 871607680@qq.com
+          password: ll123456
+management:
+    security:
+      enabled: false

@@ -1,0 +1,12 @@
+server:
+  port: 8081
+management:
+    security:
+      enabled: false
+#spring:
+#  application:
+#    name: client
+#logging:
+#  level:
+#    org.springframework.cloud: debug
+#    org.springframework.boot: debug

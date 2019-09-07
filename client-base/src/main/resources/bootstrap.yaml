@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms  # 服务端配置文件应用名称
+  cloud:
+    config:
+      uri: http://localhost:8080
+      profile: pro
+      label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
