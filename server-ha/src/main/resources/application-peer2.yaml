@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: liulei-ha2
+server:
+  port: 8762
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
+  instance:
+    hostname: peer2
